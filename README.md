@@ -1,3 +1,25 @@
+<!-- Put this block at the very top of the upstream README.md. Keep the upstream README below it unchanged so merges from a2aproject/A2A stay clean. -->
+
+> ### A2A.jos — the Agent2Agent protocol, as the transport for `.jos` contracts
+>
+> This is a fork of the [Agent2Agent (A2A) protocol](https://github.com/a2aproject/A2A), maintained for the `.jos` open standard. The upstream text below is unchanged.
+>
+> **Why it exists.** A2A defines how agents talk to each other. `.jos` defines what one agent is asking another to achieve: the objective, the checks that prove it was met, and the limits it must respect. The `.jos` specification already defines the binding: a `.jos` document travels as a structured data part of an A2A message with the content type `application/vnd.jos+json`, and the reference kernels pass the `a2a-binding` conformance vector. This fork is where that binding is written up against the protocol text itself.
+>
+> **Status, stated plainly.** No `.jos`-specific change has been committed to this fork yet; it tracks upstream. Proposals are welcome as issues in the [.jos specification repository](https://github.com/josfox-jos/jos-spec/issues).
+>
+> **The `.jos` family:** [community start page](https://github.com/josfox-jos/jos) · [normative specification 2.0.0](https://github.com/josfox-jos/jos-spec) · [jos.mx landing source](https://github.com/josfox-jos/jos.mx) · [0.0.7 historical draft](https://github.com/josfox-ai/jos-format-spec) · [the JavaScript SDK fork, .jos-a2a-js](https://github.com/josfox-ai/.jos-a2a-js)
+>
+> **Built by JOSFOX:** [JOSFOX AI deep-link helper](https://github.com/josfox-ai/josfoxai-deep-link) · [reserved deep-link name under josfox-jos](https://github.com/josfox-jos/josfoxai-deep-link)
+
+---
+
+## Public platform documentation — expanded ecosystem
+
+For readers of `josfox-ai/A2A.jos`, distribution status per platform is documented in one public hub; its existence does not imply a downloadable artifact or verified host compatibility.
+
+- For readers of `josfox-ai/A2A.jos`, [jos-omni](https://github.com/josfox-ai/jos-omni) provides distribution documentation hub.
+
 # Agent2Agent (A2A) Protocol
 
 [![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)
